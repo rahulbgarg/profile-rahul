@@ -1,35 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Index</title>
-
-</head>
-<body>
+    <style>
+      nav a {
+        margin-right: 40px;
+        text-decoration: none;
+      }
+      #homeLink {
+        margin-left: 10px;
+      }
+      span {
+        margin-left: 30px;
+      }
+      header {
+        background-color: rgb(153, 247, 153);
+      }
+     
+    </style>
+  </head>
+  <body>
     <!-- Header Section -->
     <header>
-        <span> Name: Rahul Garg &nbsp;&nbsp;&nbsp;&nbsp; Mobile: 9623 790 235 &nbsp;&nbsp;&nbsp;&nbsp; Email: abc@gmail.com</span>
+      <span> Name: Rahul Garg </span><span> Mobile: 9623 790 235</span
+      ><span> Email: abc@gmail.com</span>
     </header>
-    <hr>
-<!-- Navigation Section -->
+    <hr />
+    <!-- Navigation Section -->
     <nav>
-        <a href="home.html" target="mainFrame">HOME</a> &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
-        <a href="techStack.html" target="mainFrame">TECH STACK</a> &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
-        <a href="project.html" target="mainFrame">PROJECT</a> &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
-        <a href="education.html" target="mainFrame">EDUCATION</a> &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
-        <a href="other.html" target="mainFrame">OTHERS</a>
+      <a href="home.html" target="mainFrame" id="homeLink">HOME</a>
+      <a href="techStack.html" target="mainFrame">TECH STACK</a>
+      <a href="project.html" target="mainFrame">PROJECT</a>
+      <a href="education.html" target="mainFrame">EDUCATION</a>
+      <a href="other.html" target="mainFrame">OTHERS</a>
     </nav>
-    <hr>
-<!-- Body Section -->
-    <iframe src="home.html" name="mainFrame" frameborder="0" width="900px" height="450px">
-
-    </iframe><hr>
+    <hr />
+    <!-- Body Section -->
+    <iframe
+      src="home.html"
+      name="mainFrame"
+      frameborder="0"
+      width="900px"
+      height="450px"
+    >
+    </iframe>
+    <hr />
     <!-- Footer Section -->
     <footer>
-        <a href="">Linked IN</a> &nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="">GitHub</a>&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="">Naukri</a>
+      <span> <a href="">Linked IN</a></span>
+      <span> <a href="">GitHub</a></span>
+      <span><a href="">Naukri</a></span>
     </footer>
-</body>
+  </body>
 </html>
