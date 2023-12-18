@@ -3,32 +3,63 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Index</title>
+    <title>CSS MAIN</title>
+    <!-- Icon Link also called As CDN Links-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- Font Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Raleway:wght@800&family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
     <style>
       nav a {
+        color: rgb(71, 0, 152);
         margin-right: 40px;
+        font-weight: bold;
         text-decoration: none;
+        font-family: 'Roboto', sans-serif;
       }
       #homeLink {
         margin-left: 10px;
       }
       span {
         margin-left: 30px;
+        
       }
       header {
+        text-align: right;
         background-color: rgb(153, 247, 153);
+        color: rgb(0, 70, 12);
+        font-size: large;
       }
-     
+      img {
+        width: 50px;
+        height: 70px;
+        float: left;
+        margin-left: 10px;
+      }
+      footer{
+       font-size: x-large;
+       text-align: center;
+      }
     </style>
   </head>
   <body>
     <!-- Header Section -->
     <header>
-      <span> Name: Rahul Garg </span><span> Mobile: 9623 790 235</span
-      ><span> Email: abc@gmail.com</span>
+      <span><img src="Assests/Untitled-ee-01-01.png" alt="" /></span>
+      <span> <i class="fa fa-user" aria-hidden="true"></i> : Rahul Garg </span>
+      <span> Mobile: 9623 790 235</span>
+      <span> Email: abc@gmail.com</span>
     </header>
     <hr />
     <!-- Navigation Section -->
+
     <nav>
       <a href="home.html" target="mainFrame" id="homeLink">HOME</a>
       <a href="techStack.html" target="mainFrame">TECH STACK</a>
@@ -49,9 +80,16 @@
     <hr />
     <!-- Footer Section -->
     <footer>
-      <span> <a href="">Linked IN</a></span>
-      <span> <a href="">GitHub</a></span>
-      <span><a href="">Naukri</a></span>
+      <span>
+        <a href=""><i class="fa fa-linkedin-square" aria-hidden="true"></i></a
+      ></span>
+      <span>
+        <a href=""
+          ><a href=""><i class="fa fa-github" aria-hidden="true"></i></a></a
+      ></span>
+      <span
+        ><a href=""><i class="fa fa-briefcase" aria-hidden="true"></i></a
+      ></span>
     </footer>
   </body>
 </html>
