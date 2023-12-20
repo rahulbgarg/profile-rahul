@@ -32,6 +32,12 @@
         list-style-type: square;
         font-family: 'Roboto', sans-serif;
       }
+      #emoji li::before{
+        content: "👉";
+      }
+      #emoji li {
+        list-style: none;
+      }
     </style>
   </head>
   <body>
@@ -42,7 +48,7 @@
     </p>
 
     <h2>Professional Summary</h2>
-    <ul>
+    <ul id="emoji">
       <li>
         Having 5 years of experience in developing single page web application
         using <span> React,</span> HTML, CSS, Bootstrap, Javascript,etc
